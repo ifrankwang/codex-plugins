@@ -1,0 +1,16 @@
+{
+  "mcpServers": {
+    "openspec-agents": {
+      "command": "node",
+      "args": [
+        "./.mcp-server/cli.mjs",
+        "--transport",
+        "stdio",
+        "--worktree",
+        ".",
+        "--unattended"
+      ],
+      "cwd": "."
+    }
+  }
+}
