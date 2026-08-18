@@ -1,6 +1,6 @@
 {
   "mcpServers": {
-    "openspec-agents": {
+    "opx": {
       "command": "node",
       "args": [
         "./.mcp-server/cli.mjs",
@@ -8,7 +8,8 @@
         "stdio",
         "--worktree",
         ".",
-        "--unattended"
+        "--unattended",
+        "--strip-opx-prefix"
       ],
       "cwd": "."
     }
