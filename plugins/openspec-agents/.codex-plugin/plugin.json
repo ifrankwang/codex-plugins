@@ -1,7 +1,7 @@
 {
   "name": "openspec-agents",
-  "version": "0.149.0",
-  "description": "OpenSpec change orchestration for AI coding agents: turn OpenSpec change specs into reviewed, high-quality code.",
+  "version": "0.149.1",
+  "description": "OpenSpec companion plugin for AI coding agents: a stricter proposal standard plus multi-agent implementation and review, gated to production-grade standards.",
   "author": {
     "name": "ifrankwang"
   },
@@ -10,8 +10,8 @@
   "mcpServers": "./.mcp.json",
   "interface": {
     "displayName": "OpenSpec Agents",
-    "shortDescription": "OpenSpec change orchestration for Codex",
-    "longDescription": "OpenSpec change orchestration for AI coding agents: turn OpenSpec change specs into reviewed, high-quality code.",
+    "shortDescription": "Production-grade OpenSpec proposals, implementation and review for Codex",
+    "longDescription": "OpenSpec companion plugin for AI coding agents: a stricter proposal standard plus multi-agent implementation and review, gated to production-grade standards.",
     "developerName": "ifrankwang",
     "category": "Developer Tools",
     "capabilities": [
@@ -19,7 +19,7 @@
       "Write"
     ],
     "defaultPrompt": [
-      "Run the OpenSpec change orchestration workflow."
+      "Run the OpenSpec proposal, implementation and review workflow."
     ]
   }
 }
